@@ -1,0 +1,33 @@
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Outfit:wght@400;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-mint: #2BAAB1;
+  --color-brand-deep-teal: #1A6B5E;
+  --color-brand-yellow: #F5D410;
+  --color-brand-navy: #14213D;
+  --color-brand-off-white: #F7FAF9;
+  --color-brand-amber: #D4894A;
+  
+  --font-sans: 'Pretendard', 'Noto Sans KR', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'GmarketSans', 'Outfit', 'Noto Sans KR', sans-serif;
+}
+
+@layer utilities {
+  .dotted-grid {
+    background-image: 
+      radial-gradient(circle, rgba(43, 170, 177, 0.15) 1px, transparent 1.5px);
+    background-size: 32px 32px;
+  }
+}
+
+/* Custom scrollbar for horizontal carousel */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "리틀플래너스 (Little Planners)",
+  "description": "AI 시대, 아이를 소비자가 아닌 기획자로 키우는 어린이기획력 교육 브랜드",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
